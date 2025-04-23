@@ -1,5 +1,5 @@
 {
-  "name": "my-ui-library",
+  "name": "@carlosreinoso/library",
   "version": "1.0.0",
   "description": "A collection of reusable React components with Tailwind CSS",
   "main": "dist/index.js",
@@ -18,16 +18,16 @@
     "tailwind",
     "typography"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Your Name web@carlosreinoso.co.uk",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/my-ui-library.git"
+    "url": "git+https://github.com/carlosreinoso/library.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/my-ui-library/issues"
+    "url": "https://github.com/carlosreinoso/library/issues"
   },
-  "homepage": "https://github.com/yourusername/my-ui-library#readme",
+  "homepage": "https://github.com/carlosreinoso/library#readme",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
