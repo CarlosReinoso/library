@@ -1,0 +1,44 @@
+{
+  "name": "my-ui-library",
+  "version": "1.0.0",
+  "description": "A collection of reusable React components with Tailwind CSS",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src -d dist --copy-files",
+    "prepare": "pnpm run build"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "tailwind",
+    "typography"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/my-ui-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/my-ui-library/issues"
+  },
+  "homepage": "https://github.com/yourusername/my-ui-library#readme",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.22.15"
+  }
+}
