@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "babel src -d dist --copy-files && tsc",
+    "build": "tsup src/index.ts --dts --format esm,cjs --out-dir dist",
     "prepare": "pnpm run build",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -42,7 +42,8 @@
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.23.0",
-    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.27.0",
     "@testing-library/dom": "^9.3.4",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -55,6 +56,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "ts-jest": "^29.3.2",
+    "tsup": "^8.4.0",
     "typescript": "^5.0.0"
   }
 }
