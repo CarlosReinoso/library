@@ -8,7 +8,8 @@ const defaultFonts: FontConfig = {
   body: "font-sans",
 };
 
-export { Typography, h6, body1, defaultFonts, WebsiteBy };
+export { Typography, h6, body1, defaultFonts };
+export { WebsiteBy };
 
 export type { FontConfig, TypographyProps, TypographyVariant };
 
