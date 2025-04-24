@@ -24,7 +24,7 @@ To publish this package to npm, follow these steps:
 
 4. Publish the package:
    ```bash
-   pnpm publish
+   pnpm publish --access public
    ```
 
 Current version: 1.0.1
